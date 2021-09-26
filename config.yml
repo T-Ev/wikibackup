@@ -1,0 +1,12 @@
+port: 3000
+db:
+  type: sqlite
+  storage: .data/db.sqlite
+bindIP: 0.0.0.0
+logLevel: info
+uploads:
+  maxFileSize: 5242880
+  maxFiles: 10
+offline: false
+ha: false
+dataPath: ./data
