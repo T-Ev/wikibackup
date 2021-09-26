@@ -7,4 +7,7 @@ Usage:
 
 
 v1.0:
-```rm -rf ../app/* && pnpm prune && wget https://github.com/callousrow/wikibackup/releases/download/1.0/wiki-js-2.5.219-lite.tar.gz && tar xzf wiki-js-2.5.219-lite.tar.gz --exclude node_modules && rm -rf wiki-js-2.5.219-lite.tar.gz && pnpm install -P && pnpm rebuild sqlite3 && rm config.sample.yml && wget https://github.com/callousrow/wikibackup/releases/download/1.0/config.yml && mkdir .data && refresh```
+
+```rm -rf ../app/* && pnpm prune && wget https://github.com/callousrow/wikibackup/releases/download/2.0/wiki-js-2.5.219-lite.tar.gz && tar xzf wiki-js-2.5.219-lite.tar.gz --exclude node_modules && rm -rf wiki-js-2.5.219-lite.tar.gz && pnpm install -P && pnpm rebuild sqlite3 && rm config.sample.yml && wget https://github.com/callousrow/wikibackup/releases/download/2.0/config.yml && mkdir .data && refresh```
+
+Big thanks to ihack2712: https://support.glitch.com/t/wiki-js-org-on-glitch/23521
